@@ -14,10 +14,8 @@ settings = {
 	'minSize': (50, 50)
 }
 
-#labels = ['Surprise', 'Neutral', 'Anger', 'Happy', 'Sad']
 labels =  ['Anger', 'Disgust', 'Fear', 'Happy', 'Sad', 'Surprise', 'Neutral']
 
-#model = tf.keras.models.load_model('network-5Labels.h5')
 model = tf.keras.models.load_model("model_35_91_61.h5")
 
 while True:
